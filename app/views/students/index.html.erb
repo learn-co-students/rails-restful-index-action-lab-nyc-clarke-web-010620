@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>List of Students</h1>
+<p>
+<% @students.each do |student| %>
+    <%= student.first_name  %><br>
+<% end %>
+</p>
+</body>
+</html> 
